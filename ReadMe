@@ -7,30 +7,30 @@ Name: Syed Ayaan Hussain
 University: Jamia Millia Islamia
 Course and Year - B.Tech | Electrical Engineering (2nd year)
 
-🚀 The Problem We Solve
+The Problem We Solve
 We all sign up for newsletters hoping to learn, grow, and stay ahead, but what happens? 📩 Our inboxes turn into a cluttered mess.
 Important newsletters get buried under promotional emails, work updates, and spam.  
 
-🔍 The result? We miss out on valuable insights that could shape our careers, fuel our passions, and keep us informed.  
+The result? We miss out on valuable insights that could shape our careers, fuel our passions, and keep us informed.  
 
-✨ Nuvize changes that. We bring all your newsletters into one dedicated, distraction-free space, so you stay in control of your learning—on your terms.  
+Nuvize changes that. We bring all your newsletters into one dedicated, distraction-free space, so you stay in control of your learning—on your terms.  
 
-📌 Why Nuvize? 
-- 🚫 No More Lost Newsletters: Stop digging through your inbox!  
-- 🎯 Curated Just for You: Access all your newsletters in one place.  
-- 📖 Focused Learning: No ads, no noise—just pure knowledge.  
-- 🔥 Be in Control: Organize and consume content the way you want.  
+Why Nuvize? 
+🚫 No More Lost Newsletters: Stop digging through your inbox!  
+🎯 Curated Just for You: Access all your newsletters in one place.  
+📖 Focused Learning: No ads, no noise—just pure knowledge.  
+🔥 Be in Control: Organize and consume content the way you want.  
 
-🏆 Built for HackJMI 
+Built for HackJMI 
 This is our Minimum Viable Product (MVP) for HackJMI, solving a real-world problem that every knowledge-seeker faces. Nuvize isn't just an app—it’s the future of learning.
 
-✨ Features
-- 🔑 Secure Login: Your newsletters, your space.  
-- 📚 Newsletter Feed: Browse and read easily.  
-- 📄 Detailed Article View: No distractions, just pure content.  
-- 🚀 Seamless UX: Simple, intuitive, and smooth.  
+Features
+🔑 Secure Login: Your newsletters, your space.  
+📚 Newsletter Feed: Browse and read easily.  
+📄 Detailed Article View: No distractions, just pure content.  
+🚀 Seamless UX: Simple, intuitive, and smooth.  
 
-🛠Tech Stack 
+Tech Stack 
 - Kotlin (Jetpack Compose for UI)  
 - Android Studio  
 - Git & GitHub for version control  
