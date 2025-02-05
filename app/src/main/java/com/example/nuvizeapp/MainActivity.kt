@@ -65,7 +65,8 @@
                 value = username,
                 onValueChange = { username = it },
                 label = { Text("Username") },
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                maxLines = 1
             )
 
             Spacer(modifier = Modifier.height(5.dp))
