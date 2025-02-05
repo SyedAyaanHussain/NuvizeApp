@@ -1,5 +1,5 @@
 NUVIZE - A ONE-STOP SOLUTION FOR ALL YOUR NEWSLETTERS  
-🚀 Built for HackJMI 2025  
+Built for HackJMI 2025  
 
 PROJECT SUBMITTED BY  
 - Team Nuvize @ HackJMI 2025  
@@ -10,10 +10,11 @@ PROJECT SUBMITTED BY
 ---
 
 TRY NUVIZE NOW  
-- Download the apk (supports Android 8.1 to 15)  
+- Download the apk (supports Android 8.1 to 15)  - APK is in the Drive Folder!
 - Screenshots & demo video  
 
-[Click here to access the Drive folder](https://drive.google.com/drive/folders/1U5sIFFMGWhoLuGeBJ4KTHgKUYlrxN3y3?usp=sharing)  
+[Click here to access the Drive folder]
+https://drive.google.com/drive/folders/1U5sIFFMGWhoLuGeBJ4KTHgKUYlrxN3y3?usp=sharing  
 
 Source code: 
 `NuvizeApp/app/src/main/java/com/example/nuvizeapp/MainActivity.kt`  
@@ -48,10 +49,10 @@ FEATURES IN THE MVP
 
 THE FUTURE OF NUVIZE - ROADMAP & NEXT STEPS  
 
-- **AI-powered summaries** – quickly skim through key insights with AI-generated highlights.  
-- **Newsletter marketplace** – search and subscribe to top newsletters from any author, directly from the app.  
-- **B2B model for newsletter creators** – a seamless platform for authors to distribute and monetize their content.  
-- **Mobile and web syncing** – access your newsletters anywhere, anytime.  
+- AI-powered summaries – quickly skim through key insights with AI-generated highlights.  
+- Newsletter marketplace – search and subscribe to top newsletters from any author, directly from the app.  
+- B2B model for newsletter creators – a seamless platform for authors to distribute and monetize their content.  
+- Mobile and web syncing – access your newsletters anywhere, anytime.  
 
 
 BUSINESS MODEL  (Future)
@@ -62,7 +63,7 @@ Nuvize will operate on a freemium model:
 - Premium tier: AI summaries, exclusive content, and deep analytics.  
 
 
-MARKETING STRATEGY  
+MARKETING STRATEGY  (Future)
 
 - Targeting knowledge seekers, professionals, and students.  
 - Community partnerships with newsletter creators and bloggers.  
