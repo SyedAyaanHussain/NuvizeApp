@@ -201,8 +201,13 @@ fun NewslettersScreen(onLogout: () -> Unit) {
 
     Box(modifier = Modifier.fillMaxSize()) {
         Column(modifier = Modifier.fillMaxSize()) {
-            
+            // Logout button positioned properly in the top-right with a title text
             Box(modifier = Modifier.fillMaxWidth()) {
+                Text(
+                    text = "Nuvize Newsletters",
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.align(Alignment.CenterStart).padding(16.dp)
+                )
                 IconButton(
                     onClick = { showLogoutConfirmation = true },
                     modifier = Modifier
@@ -224,6 +229,7 @@ fun NewslettersScreen(onLogout: () -> Unit) {
             }
         }
 
+        // Logout confirmation dialog
         if (showLogoutConfirmation) {
             AlertDialog(
                 onDismissRequest = { showLogoutConfirmation = false },
@@ -250,6 +256,7 @@ fun NewslettersScreen(onLogout: () -> Unit) {
         }
     }
 }
+
 
 
 
