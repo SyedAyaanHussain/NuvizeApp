@@ -19,19 +19,19 @@ The result? We miss out on valuable insights that could shape our careers, fuel 
 Nuvize changes that. We bring all your newsletters into one dedicated, distraction-free space, so you stay in control of your learning—on your terms.  
 
 Why Nuvize? 
-🚫 No More Lost Newsletters: Stop digging through your inbox!  
-🎯 Curated Just for You: Access all your newsletters in one place.  
-📖 Focused Learning: No ads, no noise—just pure knowledge.  
-🔥 Be in Control: Organize and consume content the way you want.  
+1. No More Lost Newsletters: Stop digging through your inbox!  
+2. Curated Just for You: Access all your newsletters in one place.  
+3. Focused Learning: No ads, no noise—just pure knowledge.  
+4. Be in Control: Organize and consume content the way you want.  
 
 Built for HackJMI 
 This is our Minimum Viable Product (MVP) for HackJMI, solving a real-world problem that every knowledge-seeker faces. Nuvize isn't just an app—it’s the future of learning.
 
 Features
-🔑 Secure Login: Your newsletters, your space.  
-📚 Newsletter Feed: Browse and read easily.  
-📄 Detailed Article View: No distractions, just pure content.  
-🚀 Seamless UX: Simple, intuitive, and smooth.  
+1. Secure Login: Your newsletters, your space.  
+2. Newsletter Feed: Browse and read easily.  
+3. Detailed Article View: No distractions, just pure content.  
+4. Seamless UX: Simple, intuitive, and smooth.  
 
 Tech Stack 
 - Kotlin (Jetpack Compose for UI)  
