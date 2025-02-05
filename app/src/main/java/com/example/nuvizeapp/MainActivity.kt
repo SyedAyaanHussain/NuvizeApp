@@ -54,9 +54,9 @@ fun LoginScreen(onLoginSuccess: () -> Unit) {
 
         Image(
             painter = painterResource(id = R.drawable.logo),
-            contentDescription = "Company Logo",
+            contentDescription = "Nuvize Logo",
             modifier = Modifier
-                .size(90.dp)
+                .size(100.dp)
                 .padding(bottom = 32.dp)
         )
 
@@ -93,7 +93,7 @@ fun LoginScreen(onLoginSuccess: () -> Unit) {
 
         Button(
             onClick = {
-                if (username == "sayaanhussain123" && password == "testing123") {
+                if (username == "user" && password == "password") {
                     onLoginSuccess()
                 } else {
                     showError = true
@@ -105,7 +105,7 @@ fun LoginScreen(onLoginSuccess: () -> Unit) {
                 contentColor = MaterialTheme.colorScheme.onPrimary
             )
         ) {
-            Text("Login", fontSize = 16.sp)
+            Text("Login", fontSize = 20.sp)
         }
     }
 }
@@ -145,6 +145,46 @@ val dummyNewsletters = listOf(
         date = "Oct 1, 2023",
         publisher = "Design Weekly",
         content = "Good UI/UX design is essential for creating engaging and user-friendly apps."
+    ),
+    Newsletter(
+        id = 4,
+        title = "Android Architecture Patterns",
+        description = "Explore MVVM, MVI, and other architecture patterns for Android.",
+        date = "Sep 25, 2023",
+        publisher = "Android Weekly",
+        content = "Choosing the right architecture pattern can make your app more maintainable and scalable."
+    ),
+    Newsletter(
+        id = 5,
+        title = "Flutter vs Jetpack Compose",
+        description = "A comparison of Flutter and Jetpack Compose for cross-platform and native development.",
+        date = "Sep 20, 2023",
+        publisher = "Mobile Dev Digest",
+        content = "Both Flutter and Jetpack Compose have their strengths. Learn which one suits your needs."
+    ),
+    Newsletter(
+        id = 6,
+        title = "Building REST APIs with Ktor",
+        description = "Learn how to build REST APIs using Ktor, a lightweight Kotlin framework.",
+        date = "Sep 15, 2023",
+        publisher = "Kotlin Weekly",
+        content = "Ktor is a great choice for building asynchronous and scalable APIs."
+    ),
+    Newsletter(
+        id = 7,
+        title = "State Management in Jetpack Compose",
+        description = "Understand how to manage state effectively in Jetpack Compose.",
+        date = "Sep 10, 2023",
+        publisher = "Android Developers",
+        content = "State management is crucial for building reactive and efficient UIs in Compose."
+    ),
+    Newsletter(
+        id = 8,
+        title = "Introduction to Room Database",
+        description = "Learn how to use Room for local data storage in Android apps.",
+        date = "Sep 5, 2023",
+        publisher = "Android Weekly",
+        content = "Room simplifies database interactions and integrates seamlessly with LiveData and Coroutines."
     )
 )
 
@@ -200,11 +240,13 @@ fun NewsletterItem(newsletter: Newsletter, onClick: () -> Unit) {
         Column(
             modifier = Modifier.padding(16.dp)
         ) {
-            Text(text = newsletter.title, style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
+            Text(text = newsletter.title, style = MaterialTheme.typography.titleLarge,
+                color = MaterialTheme.colorScheme.primary)
             Spacer(modifier = Modifier.height(8.dp))
             Text(text = newsletter.description, style = MaterialTheme.typography.bodyMedium)
             Spacer(modifier = Modifier.height(8.dp))
-            Text(text = "Published on ${newsletter.date} by ${newsletter.publisher}", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.secondary)
+            Text(text = "Published on ${newsletter.date} by ${newsletter.publisher}",
+                style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.secondary)
         }
     }
 }
@@ -227,9 +269,11 @@ fun NewsletterDetailScreen(newsletter: Newsletter, onBack: () -> Unit) {
         )
 
 
-        Text(text = newsletter.title, style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.primary)
+        Text(text = newsletter.title, style = MaterialTheme.typography.headlineMedium,
+            color = MaterialTheme.colorScheme.primary)
         Spacer(modifier = Modifier.height(8.dp))
-        Text(text = "Published on ${newsletter.date} by ${newsletter.publisher}", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.secondary)
+        Text(text = "Published on ${newsletter.date} by ${newsletter.publisher}",
+            style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.secondary)
         Spacer(modifier = Modifier.height(16.dp))
         Text(text = newsletter.content, style = MaterialTheme.typography.bodyLarge)
     }
